@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  height: 100%;
+}
+
+#audio_box {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+#play {
+  padding: 12px 30px;
+  background-color: forestgreen;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  margin-top: -30px;
+  margin-left: 50px;
+}
+
+#canvas {
+  background-color: #000;
+}
+
+form {
+  position: absolute;
+  width: 100%;
+  top: 80px;
+  text-align: center;
+}
+button {
+  padding: 12px 30px;
+  border-radius: 10px;
+  background-color: darkred;
+  color: #fff;
+  border: none;
+}
+label {
+  color: #fff;
+}

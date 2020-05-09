@@ -1,0 +1,17 @@
+{
+    "name": "webaudiovisualizer",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon app.js"
+    },
+    "author": "atharvjoshi",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "ejs": "^3.0.2",
+        "express": "^4.17.1",
+        "multer": "^1.4.2"
+    }
+}

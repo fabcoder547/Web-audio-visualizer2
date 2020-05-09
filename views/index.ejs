@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/style.css">
+    <title>Audio plyer</title>
+</head>
+
+<body>
+  <div id="audio_box"><audio src=" <%= typeof filename=='undefined'?" /audio/1.mp3 " :filename %>" preload="none" id="audio" controls></audio>
+<button id="play">Play</button></div>
+
+    <form action="/api/upload" enctype="multipart/form-data" method="POST">
+        <label>Choose a song you want to visualize</label>
+        <input type="file" name="audiofile" id="">
+        <button type="submit">submit</button>
+
+    </form>
+    <canvas id="canvas"></canvas>
+
+
+
+
+    <script src='/js/main.js'></script>
+</body>
+
+</html>
